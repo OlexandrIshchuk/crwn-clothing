@@ -7,8 +7,7 @@ const WithSpinner = WrappedComponent => {
             <SpinnerOverlay>
                 <SpinnerContainer/>
             </SpinnerOverlay>
-        ) : (
-            <WrappedComponent { ...otherProps } />
+        ) : ( <WrappedComponent { ...otherProps } />
         )
     }
     return Spinner;
